@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mimic:MimicApplication xmlns:mimic="com.madcap.mimic.*" xmlns:flex="http://ns.adobe.com/mxml/2009" applicationComplete="onApplicationComplete();" enableExternalInterface="false" frameRate="60" width="618" paddingLeft="0" paddingRight="0" paddingTop="0" paddingBottom="0" height="568">
+    <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" xmlns="library://ns.adobe.com/flex/halo">
+        <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526">
+            <FrameCanvas stopSoundsOfPreviousFrames="true" holdCursors="false" timeSpanned="true" visible="true" duration="10000" xmlns="com.madcap.mimic.*">
+                <Group xmlns="library://ns.adobe.com/flex/spark">
+                    <Rect width="618" height="526">
+                        <fill>
+                            <LinearGradient>
+                                <entries>
+                                    <GradientEntry color="0xa9a9a9" alpha="1" ratio="0.0" />
+                                </entries>
+                            </LinearGradient>
+                        </fill>
+                    </Rect>
+                </Group>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" xmlns="library://ns.adobe.com/flex/halo">
+                    <Image source="@Embed('Background/oneFrame/0.png')" x="0" y="0" />
+                    <Image source="@Embed('Background/oneFrame/1.png')" x="123" y="0" />
+                    <Image source="@Embed('Background/oneFrame/2.png')" x="246" y="0" />
+                    <Image source="@Embed('Background/oneFrame/3.png')" x="369" y="0" />
+                    <Image source="@Embed('Background/oneFrame/4.png')" x="492" y="0" />
+                    <Image source="@Embed('Background/oneFrame/5.png')" x="0" y="105" />
+                    <Image source="@Embed('Background/oneFrame/6.png')" x="126" y="105" />
+                    <Image source="@Embed('Background/oneFrame/7.png')" x="252" y="105" />
+                    <Image source="@Embed('Background/oneFrame/8.png')" x="378" y="105" />
+                    <Image source="@Embed('Background/oneFrame/9.png')" x="504" y="105" />
+                    <Image source="@Embed('Background/oneFrame/10.png')" x="0" y="210" />
+                    <Image source="@Embed('Background/oneFrame/11.png')" x="126" y="210" />
+                    <Image source="@Embed('Background/oneFrame/12.png')" x="252" y="210" />
+                    <Image source="@Embed('Background/oneFrame/13.png')" x="378" y="210" />
+                    <Image source="@Embed('Background/oneFrame/14.png')" x="504" y="210" />
+                    <Image source="@Embed('Background/oneFrame/15.png')" x="0" y="315" />
+                    <Image source="@Embed('Background/oneFrame/16.png')" x="126" y="315" />
+                    <Image source="@Embed('Background/oneFrame/17.png')" x="252" y="315" />
+                    <Image source="@Embed('Background/oneFrame/18.png')" x="378" y="315" />
+                    <Image source="@Embed('Background/oneFrame/19.png')" x="504" y="315" />
+                    <Image source="@Embed('Background/oneFrame/20.png')" x="0" y="420" />
+                    <Image source="@Embed('Background/oneFrame/21.png')" x="126" y="420" />
+                    <Image source="@Embed('Background/oneFrame/22.png')" x="252" y="420" />
+                    <Image source="@Embed('Background/oneFrame/23.png')" x="378" y="420" />
+                    <Image source="@Embed('Background/oneFrame/24.png')" x="504" y="420" />
+                </Canvas>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" clipContent="false" xmlns="library://ns.adobe.com/flex/halo">
+                    <ShapeCanvas x="10" y="10" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 270 0 L 270 370 L 0 370 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/35f608775774b123a53f0717b031563362786750.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="110" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xe0ffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/99aabdfc068a525b098a16b80fb0daea4e58e543.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="290" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf0fff0" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/2c0fbf12cab518337d098a004808474b3ee4cddc.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                </Canvas>
+            </FrameCanvas>
+        </Canvas>
+        <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" y="526">
+            <Group xmlns="library://ns.adobe.com/flex/spark">
+                <Rect width="618" height="42">
+                    <fill>
+                        <LinearGradient rotation="90">
+                            <entries>
+                                <GradientEntry color="0xf7f7f7" ratio="0.0" />
+                                <GradientEntry color="0xc2c2c2" ratio="1.0" />
+                            </entries>
+                        </LinearGradient>
+                    </fill>
+                </Rect>
+            </Group>
+            <ProgressHSlider x="0" y="-5" width="618" height="10" xmlns="com.madcap.mimic.*" />
+            <Button upSkin="@Embed('EmbeddedSkin/oneFrame/PlayNormal.png')" overSkin="@Embed('EmbeddedSkin/oneFrame/PlayHover.png')" downSkin="@Embed('EmbeddedSkin/oneFrame/PlayPressed.png')" selectedUpSkin="@Embed('EmbeddedSkin/oneFrame/PauseNormal.png')" selectedOverSkin="@Embed('EmbeddedSkin/oneFrame/PauseHover.png')" selectedDownSkin="@Embed('EmbeddedSkin/oneFrame/PausePressed.png')" toggle="true" selected="true" x="5" y="13" width="33" height="26" click="MimicApplication.global.doAction('Pause');" />
+            <Button upSkin="@Embed('EmbeddedSkin/oneFrame/FirstNormal.png')" overSkin="@Embed('EmbeddedSkin/oneFrame/FirstHover.png')" downSkin="@Embed('EmbeddedSkin/oneFrame/FirstPressed.png')" x="40" y="13" width="33" height="26" click="MimicApplication.global.doAction('GotoFirst');" />
+            <Button upSkin="@Embed('EmbeddedSkin/oneFrame/BackNormal.png')" overSkin="@Embed('EmbeddedSkin/oneFrame/BackHover.png')" downSkin="@Embed('EmbeddedSkin/oneFrame/BackPressed.png')" x="75" y="13" width="33" height="26" click="MimicApplication.global.doAction('GotoPrevious');" />
+            <Button upSkin="@Embed('EmbeddedSkin/oneFrame/NextNormal.png')" overSkin="@Embed('EmbeddedSkin/oneFrame/NextHover.png')" downSkin="@Embed('EmbeddedSkin/oneFrame/NextPressed.png')" x="110" y="13" width="33" height="26" click="MimicApplication.global.doAction('GotoNext');" />
+            <Button upSkin="@Embed('EmbeddedSkin/oneFrame/Mute.png')" overSkin="@Embed('EmbeddedSkin/oneFrame/Mute.png')" downSkin="@Embed('EmbeddedSkin/oneFrame/Mute.png')" selectedUpSkin="@Embed('EmbeddedSkin/oneFrame/Volume.png')" selectedOverSkin="@Embed('EmbeddedSkin/oneFrame/Volume.png')" selectedDownSkin="@Embed('EmbeddedSkin/oneFrame/Volume.png')" toggle="true" selected="true" x="145" y="13" width="26" height="26" id="MuteButton" click="MimicApplication.global.doAction('Mute');" />
+            <VolumeHSlider x="171" y="13" width="50" xmlns="com.madcap.*" />
+            <Label x="227" y="18" text="TEST" />
+        </Canvas>
+    </Canvas>
+</mimic:MimicApplication>

@@ -29,6 +29,79 @@ _____________________________\par
                     <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#e0ffff" X="370" Y="110" Width="150" Height="90" Right="98" Bottom="326" Left="370" Top="110" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="Default.blue">blue</Shape>
                     <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f5f5dc" X="360" Y="200" Width="150" Height="90" Right="108" Bottom="236" Left="360" Top="200" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.yellow">sub yellow</Shape>
                     <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f0fff0" X="370" Y="290" Width="150" Height="90" Right="98" Bottom="146" Left="370" Top="290" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.green">sub green</Shape>
+                    <Shape Type="Arrow" Coordinates="507,469,596,469" HeadRotation="0" HeadLength="27" CurvedHead="true" HeadTailLength="0" CurvedHeadTail="false" BottomSideCurveFactor="0" TopSideCurveFactor="0" OverallCurvnessFactor="1" TailCurveFactor="0" TailWidth="7" TailLength="0" HeadCurveFactor="0" HeadWidth="21" LineColor="#000000" BackgroundType="Solid" BackgroundColor="#32cd32" EnableShadow="true" ShadowTransparency="0" Conditions="" LockedInEditor="false" HiddenInEditor="false" HeadBaseWidth="7" ShadowDY="2" ShadowDX="2" Action="GotoNext" />
+                </Shapes>
+                <Shapes IsResourceLayer="true" Name="Resources" />
+                <ConditionTagSet />
+            </Shapes>
+            <AFrames />
+        </Frame>
+        <Frame Bitmap="Frame1.png" ComputedWidth="618" ComputedHeight="526">
+            <Shapes>
+                <OriginalImage />
+                <Shapes>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#ffffff" X="10" Y="10" Width="270" Height="370" Right="338" Bottom="146" Left="10" Top="10" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" TextAlign="center" EnableShadow="true" InAnimation="Fade()">{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\qc\cf1\lang1033\ul\fs24 regular variables parent folder\ulnone\par
+[%=Variables.single reg%]\par
+[%=Variables.reg%]\par
+\par
+\ul DT variables parent folder\ulnone\par
+[%=Variables.single DT%]\par
+[%=Variables.DT%]\par
+\par
+_____________________________\par
+\par
+\ul regular variable sub- folder\ulnone\par
+[%=NewFolder/NewSet.sub reg%]\par
+\par
+\ul DT variable sub- folder\ulnone\par
+[%=NewFolder/NewSet.sub DT%]\par
+\pard\par
+}
+</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#ffe4e1" X="360" Y="20" Width="150" Height="90" Right="108" Bottom="416" Left="360" Top="20" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="Default.red" Animation="Move" AnimationEndX="387" AnimationEndY="59">red</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#e0ffff" X="370" Y="110" Width="150" Height="90" Right="98" Bottom="326" Left="370" Top="110" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="Default.blue" Animation="Move" AnimationEndX="494" AnimationEndY="142">blue</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f5f5dc" X="360" Y="200" Width="150" Height="90" Right="108" Bottom="236" Left="360" Top="200" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.yellow" Animation="Move" AnimationEndX="403" AnimationEndY="244">sub yellow</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f0fff0" X="370" Y="290" Width="150" Height="90" Right="98" Bottom="146" Left="370" Top="290" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.green" Animation="Move" AnimationEndX="528" AnimationEndY="338">sub green</Shape>
+                    <Shape Type="Arrow" Coordinates="507,469,596,469" HeadRotation="0" HeadLength="27" CurvedHead="true" HeadTailLength="0" CurvedHeadTail="false" BottomSideCurveFactor="0" TopSideCurveFactor="0" OverallCurvnessFactor="1" TailCurveFactor="0" TailWidth="7" TailLength="0" HeadCurveFactor="0" HeadWidth="21" LineColor="#000000" BackgroundType="Solid" BackgroundColor="#32cd32" EnableShadow="true" ShadowTransparency="0" Conditions="" LockedInEditor="false" HiddenInEditor="false" HeadBaseWidth="7" ShadowDY="2" ShadowDX="2" Action="GotoNext" />
+                    <Shape Type="Arrow" Coordinates="107,459,23,459" HeadRotation="0" HeadLength="24" CurvedHead="true" HeadTailLength="5" CurvedHeadTail="false" BottomSideCurveFactor="0" TopSideCurveFactor="0" OverallCurvnessFactor="1" TailCurveFactor="0" TailWidth="7" TailLength="0" HeadCurveFactor="0" HeadWidth="21" LineColor="#000000" BackgroundType="Solid" BackgroundColor="#ff0000" EnableShadow="false" ShadowTransparency="0" Conditions="" LockedInEditor="false" HiddenInEditor="false" HeadBaseWidth="7" Transparency="0" LineWidth="1" Action="GotoPrevious" />
+                </Shapes>
+                <Shapes IsResourceLayer="true" Name="Resources" />
+                <ConditionTagSet />
+            </Shapes>
+            <AFrames />
+        </Frame>
+        <Frame Bitmap="Frame1.png" ComputedWidth="618" ComputedHeight="526">
+            <Shapes>
+                <OriginalImage />
+                <Shapes>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#ffffff" X="10" Y="10" Width="270" Height="370" Right="338" Bottom="146" Left="10" Top="10" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" TextAlign="center">{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\qc\cf1\lang1033\ul\fs24 regular variables parent folder\ulnone\par
+[%=Variables.single reg%]\par
+[%=Variables.reg%]\par
+\par
+\ul DT variables parent folder\ulnone\par
+[%=Variables.single DT%]\par
+[%=Variables.DT%]\par
+\par
+_____________________________\par
+\par
+\ul regular variable sub- folder\ulnone\par
+[%=NewFolder/NewSet.sub reg%]\par
+\par
+\ul DT variable sub- folder\ulnone\par
+[%=NewFolder/NewSet.sub DT%]\par
+\pard\par
+}
+</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#ffe4e1" X="360" Y="20" Width="150" Height="90" Right="108" Bottom="416" Left="360" Top="20" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="Default.red">red</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#e0ffff" X="370" Y="110" Width="150" Height="90" Right="98" Bottom="326" Left="370" Top="110" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="Default.blue">blue</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f5f5dc" X="360" Y="200" Width="150" Height="90" Right="108" Bottom="236" Left="360" Top="200" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.yellow">sub yellow</Shape>
+                    <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#f0fff0" X="370" Y="290" Width="150" Height="90" Right="98" Bottom="146" Left="370" Top="290" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="Black" Conditions="NewFolder/NewSet.green">sub green</Shape>
+                    <Shape Type="Arrow" Coordinates="590,481,590,448" HeadRotation="0" HeadLength="27" CurvedHead="true" HeadTailLength="0" CurvedHeadTail="false" BottomSideCurveFactor="0" TopSideCurveFactor="0" OverallCurvnessFactor="1" TailCurveFactor="0" TailWidth="7" TailLength="0" HeadCurveFactor="0" HeadWidth="21" LineColor="#000000" BackgroundType="Solid" BackgroundColor="#32cd32" EnableShadow="true" ShadowTransparency="0" Conditions="" LockedInEditor="false" HiddenInEditor="false" HeadBaseWidth="7" ShadowDY="2" ShadowDX="2" Action="GotoFirst" />
+                    <Shape Type="Arrow" Coordinates="107,459,23,459" HeadRotation="0" HeadLength="24" CurvedHead="true" HeadTailLength="5" CurvedHeadTail="false" BottomSideCurveFactor="0" TopSideCurveFactor="0" OverallCurvnessFactor="1" TailCurveFactor="0" TailWidth="7" TailLength="0" HeadCurveFactor="0" HeadWidth="21" LineColor="#000000" BackgroundType="Solid" BackgroundColor="#ff0000" EnableShadow="false" ShadowTransparency="0" Conditions="" LockedInEditor="false" HiddenInEditor="false" HeadBaseWidth="7" Transparency="0" LineWidth="1" Action="GotoPrevious" />
                 </Shapes>
                 <Shapes IsResourceLayer="true" Name="Resources" />
                 <ConditionTagSet />

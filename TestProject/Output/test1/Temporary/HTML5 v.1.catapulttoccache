@@ -6,4 +6,19 @@
   <TocEntry
     Title="Topic"
     Link="/Content/Topic.htm" />
+  <TocEntry
+    Title="Default"
+    Link="/Content/Default.htm" />
+  <TocEntry
+    Title="MadCap Movie"
+    Link="/Content/MadCap Movie.htm" />
+  <TocEntry
+    Title="Flash"
+    Link="/Content/Flash.htm" />
+  <TocEntry
+    Title="Silverlight"
+    Link="/Content/Silverlight.htm" />
+  <TocEntry
+    Title="HTML5"
+    Link="/Content/HTML5.htm" />
 </CatapultToc>

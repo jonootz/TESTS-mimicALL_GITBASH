@@ -5,7 +5,7 @@
   Type="WebHelp"
   Destinations=""
   GlossaryTermConversion="marked"
-  ConditionTagExpression="exclude[Default.red or NewFolder/NewSet.yellow] ">
+  ConditionTagExpression="exclude[Default.red or NewFolder/NewSet.yellow or Project.DontTest] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

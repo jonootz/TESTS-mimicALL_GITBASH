@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1" DescendantCount="1">
+<CatapultToc Version="1" DescendantCount="2">
     <TocEntry Title="Topic" Link="/Content/Topic.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+    <TocEntry Title="NewTopic" Link="/Content/NewTopic.htm" ComputedFirstTopic="false" DescendantCount="0" />
 </CatapultToc>
