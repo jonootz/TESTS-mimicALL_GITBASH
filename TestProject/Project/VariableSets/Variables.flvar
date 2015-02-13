@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="reg">parent</Variable>
+  <Variable
+    Name="reg"
+    Comment="">child</Variable>
+  <Variable
+    Name="DT"
+    Comment=""
+    Type="DateTime">"DT parent" hh:mm</Variable>
+  <Variable
+    Name="single DT"
+    Comment=""
+    Type="DateTime">"single" hh:mm</Variable>
+  <Variable
+    Name="DT"
+    Comment=""
+    Type="DateTime">"DT child" hh:mm</Variable>
+  <Variable
+    Name="single reg"
+    Comment="">single</Variable>
+</CatapultVariableSet>

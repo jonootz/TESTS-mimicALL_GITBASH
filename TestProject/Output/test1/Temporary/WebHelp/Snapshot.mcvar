@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableSet>
+    <Variable Name="Variables.reg">parent</Variable>
+    <Variable Name="Variables.DT">DT parent 02:14</Variable>
+    <Variable Name="Variables.single DT">single 02:14</Variable>
+    <Variable Name="Variables.single reg">single</Variable>
+    <Variable Name="NewFolder/NewSet.sub reg">sub parent</Variable>
+    <Variable Name="NewFolder/NewSet.sub DT">sub DT 02 14</Variable>
+</VariableSet>

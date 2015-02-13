@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetOutput
+  GeneratedTarget="/Output/test1/WebHelp10/Default.htm"
+  BuildVersion="10.2.2.0"
+  AliasFile="/Output/test1/WebHelp10/Data/Alias.xml">
+  <Files />
+  <Skins>
+    <Url
+      Source="Output/test1/WebHelp10/Data/SkinDefault/Skin.xml" />
+  </Skins>
+</CatapultTargetOutput>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="HTML5"
+      Type="HTML5"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/CHM"
+      Type="HTML Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/DITA"
+      Type="DITA"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/DotNet"
+      Type="DotNet Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/Eclipse"
+      Type="Eclipse Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/EPUB"
+      Type="EPUB"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/FrameMaker"
+      Type="FrameMaker"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/PDF"
+      Type="PDF"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/WebHelp Air"
+      Type="WebHelp AIR"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/WebHelp Mobile"
+      Type="WebHelp Mobile"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/WebHelp Plus"
+      Type="WebHelp Plus"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/Word"
+      Type="Word"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/XHTML Book"
+      Type="XHTML Book"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Other Target Types/XPS"
+      Type="XPS"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="WebHelp10"
+      Type="WebHelp"
+      Build="true"
+      LastBuilt="2/13/2015 2:33:15 PM"
+      LastPublished="" />
+  </Targets>
+</CatapultBatchTarget>

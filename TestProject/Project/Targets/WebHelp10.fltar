@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="exclude[Default.red or NewFolder/NewSet.yellow] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DT"
+      Type="DateTime">"DT parent OVERWRITE" hh:mm</Variable>
+    <Variable
+      Name="Variables/reg">parent  OVERWRITE</Variable>
+    <Variable
+      Name="Variables/single DT"
+      Type="DateTime">"single  OVERWRITE" hh:mm</Variable>
+    <Variable
+      Name="Variables/single reg">single  OVERWRITE</Variable>
+    <Variable
+      Name="NewFolder/NewSet/sub DT"
+      Type="DateTime">"sub DT  OVERWRITE" hh mm</Variable>
+    <Variable
+      Name="NewFolder/NewSet/sub reg">sub parent  OVERWRITE</Variable>
+  </Variables>
+</CatapultTarget>
