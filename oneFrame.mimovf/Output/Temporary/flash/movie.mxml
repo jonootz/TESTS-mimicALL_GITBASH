@@ -61,6 +61,25 @@
                         </Graphic>
                         <Image source="@Embed('Text/oneFrame/35f608775774b123a53f0717b031563362786750.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
                     </ShapeCanvas>
+                    <ShapeCanvas x="360" y="20" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffe4e1" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/af15be0869240ca5581a3368b6ecda9b3dfac709.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
                     <ShapeCanvas x="370" y="110" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
                         <Graphic xmlns="library://ns.adobe.com/flex/spark">
                             <Group>
@@ -80,6 +99,25 @@
                         </Graphic>
                         <Image source="@Embed('Text/oneFrame/99aabdfc068a525b098a16b80fb0daea4e58e543.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
                     </ShapeCanvas>
+                    <ShapeCanvas x="360" y="200" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf5f5dc" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/d8d17d3002bf791a1a52cd9bd7d3733ce0c36032.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
                     <ShapeCanvas x="370" y="290" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
                         <Graphic xmlns="library://ns.adobe.com/flex/spark">
                             <Group>
@@ -98,6 +136,398 @@
                             </Group>
                         </Graphic>
                         <Image source="@Embed('Text/oneFrame/2c0fbf12cab518337d098a004808474b3ee4cddc.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="507" y="459" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" doubleClickEnabled="false" clickAction="GotoNext" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group alpha="1">
+                                <Path data="M 2 9 L 2 12 L 2 15 L 64 15 L 64 22 L 91 12 L 64 2 L 64 9 L 2 9 ">
+                                    <fill>
+                                        <SolidColor color="0x000000" />
+                                    </fill>
+                                </Path>
+                            </Group>
+                            <Group>
+                                <Path data="M 0 7 L 0 10 L 0 13 L 62 13 L 62 20 L 89 10 L 62 0 L 62 7 L 0 7 ">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0x32cd32" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" alpha="0" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                    </ShapeCanvas>
+                </Canvas>
+            </FrameCanvas>
+            <FrameCanvas stopSoundsOfPreviousFrames="true" holdCursors="false" timeSpanned="true" visible="false" duration="10000" xmlns="com.madcap.mimic.*">
+                <Group xmlns="library://ns.adobe.com/flex/spark">
+                    <Rect width="618" height="526">
+                        <fill>
+                            <LinearGradient>
+                                <entries>
+                                    <GradientEntry color="0xa9a9a9" alpha="1" ratio="0.0" />
+                                </entries>
+                            </LinearGradient>
+                        </fill>
+                    </Rect>
+                </Group>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" xmlns="library://ns.adobe.com/flex/halo">
+                    <Image source="@Embed('Background/oneFrame/0.png')" x="0" y="0" />
+                    <Image source="@Embed('Background/oneFrame/1.png')" x="123" y="0" />
+                    <Image source="@Embed('Background/oneFrame/2.png')" x="246" y="0" />
+                    <Image source="@Embed('Background/oneFrame/3.png')" x="369" y="0" />
+                    <Image source="@Embed('Background/oneFrame/4.png')" x="492" y="0" />
+                    <Image source="@Embed('Background/oneFrame/5.png')" x="0" y="105" />
+                    <Image source="@Embed('Background/oneFrame/6.png')" x="126" y="105" />
+                    <Image source="@Embed('Background/oneFrame/7.png')" x="252" y="105" />
+                    <Image source="@Embed('Background/oneFrame/8.png')" x="378" y="105" />
+                    <Image source="@Embed('Background/oneFrame/9.png')" x="504" y="105" />
+                    <Image source="@Embed('Background/oneFrame/10.png')" x="0" y="210" />
+                    <Image source="@Embed('Background/oneFrame/11.png')" x="126" y="210" />
+                    <Image source="@Embed('Background/oneFrame/12.png')" x="252" y="210" />
+                    <Image source="@Embed('Background/oneFrame/13.png')" x="378" y="210" />
+                    <Image source="@Embed('Background/oneFrame/14.png')" x="504" y="210" />
+                    <Image source="@Embed('Background/oneFrame/15.png')" x="0" y="315" />
+                    <Image source="@Embed('Background/oneFrame/16.png')" x="126" y="315" />
+                    <Image source="@Embed('Background/oneFrame/17.png')" x="252" y="315" />
+                    <Image source="@Embed('Background/oneFrame/18.png')" x="378" y="315" />
+                    <Image source="@Embed('Background/oneFrame/19.png')" x="504" y="315" />
+                    <Image source="@Embed('Background/oneFrame/20.png')" x="0" y="420" />
+                    <Image source="@Embed('Background/oneFrame/21.png')" x="126" y="420" />
+                    <Image source="@Embed('Background/oneFrame/22.png')" x="252" y="420" />
+                    <Image source="@Embed('Background/oneFrame/23.png')" x="378" y="420" />
+                    <Image source="@Embed('Background/oneFrame/24.png')" x="504" y="420" />
+                </Canvas>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" clipContent="false" xmlns="library://ns.adobe.com/flex/halo">
+                    <ShapeCanvas x="10" y="10" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" entryEffectDuration="500" entryEffectType="fade" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group alpha="0.5">
+                                <Path data="M 5 5 L 275 5 L 275 375 L 5 375 Z">
+                                    <fill>
+                                        <SolidColor color="0x000000" />
+                                    </fill>
+                                </Path>
+                            </Group>
+                            <Group>
+                                <Path data="M 0 0 L 270 0 L 270 370 L 0 370 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/35f608775774b123a53f0717b031563362786750.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="360" y="20" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xTo="312" yTo="14" effectType="move" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffe4e1" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/af15be0869240ca5581a3368b6ecda9b3dfac709.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="110" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xTo="419" yTo="97" effectType="move" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xe0ffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/99aabdfc068a525b098a16b80fb0daea4e58e543.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="360" y="200" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xTo="328" yTo="199" effectType="move" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf5f5dc" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/d8d17d3002bf791a1a52cd9bd7d3733ce0c36032.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="290" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xTo="453" yTo="293" effectType="move" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf0fff0" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/2c0fbf12cab518337d098a004808474b3ee4cddc.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="507" y="459" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" doubleClickEnabled="false" clickAction="GotoNext" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group alpha="1">
+                                <Path data="M 2 9 L 2 12 L 2 15 L 64 15 L 64 22 L 91 12 L 64 2 L 64 9 L 2 9 ">
+                                    <fill>
+                                        <SolidColor color="0x000000" />
+                                    </fill>
+                                </Path>
+                            </Group>
+                            <Group>
+                                <Path data="M 0 7 L 0 10 L 0 13 L 62 13 L 62 20 L 89 10 L 62 0 L 62 7 L 0 7 ">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0x32cd32" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" alpha="0" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                    </ShapeCanvas>
+                    <ShapeCanvas x="23" y="449" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" doubleClickEnabled="false" clickAction="GotoPrevious" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 84 13 L 84 10 L 84 7 L 24 7 L 29 0 L 0 10 L 29 20 L 24 13 L 84 13 ">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xff0000" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                    </ShapeCanvas>
+                </Canvas>
+            </FrameCanvas>
+            <FrameCanvas stopSoundsOfPreviousFrames="true" holdCursors="false" timeSpanned="true" visible="false" duration="10000" xmlns="com.madcap.mimic.*">
+                <Group xmlns="library://ns.adobe.com/flex/spark">
+                    <Rect width="618" height="526">
+                        <fill>
+                            <LinearGradient>
+                                <entries>
+                                    <GradientEntry color="0xa9a9a9" alpha="1" ratio="0.0" />
+                                </entries>
+                            </LinearGradient>
+                        </fill>
+                    </Rect>
+                </Group>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" xmlns="library://ns.adobe.com/flex/halo">
+                    <Image source="@Embed('Background/oneFrame/0.png')" x="0" y="0" />
+                    <Image source="@Embed('Background/oneFrame/1.png')" x="123" y="0" />
+                    <Image source="@Embed('Background/oneFrame/2.png')" x="246" y="0" />
+                    <Image source="@Embed('Background/oneFrame/3.png')" x="369" y="0" />
+                    <Image source="@Embed('Background/oneFrame/4.png')" x="492" y="0" />
+                    <Image source="@Embed('Background/oneFrame/5.png')" x="0" y="105" />
+                    <Image source="@Embed('Background/oneFrame/6.png')" x="126" y="105" />
+                    <Image source="@Embed('Background/oneFrame/7.png')" x="252" y="105" />
+                    <Image source="@Embed('Background/oneFrame/8.png')" x="378" y="105" />
+                    <Image source="@Embed('Background/oneFrame/9.png')" x="504" y="105" />
+                    <Image source="@Embed('Background/oneFrame/10.png')" x="0" y="210" />
+                    <Image source="@Embed('Background/oneFrame/11.png')" x="126" y="210" />
+                    <Image source="@Embed('Background/oneFrame/12.png')" x="252" y="210" />
+                    <Image source="@Embed('Background/oneFrame/13.png')" x="378" y="210" />
+                    <Image source="@Embed('Background/oneFrame/14.png')" x="504" y="210" />
+                    <Image source="@Embed('Background/oneFrame/15.png')" x="0" y="315" />
+                    <Image source="@Embed('Background/oneFrame/16.png')" x="126" y="315" />
+                    <Image source="@Embed('Background/oneFrame/17.png')" x="252" y="315" />
+                    <Image source="@Embed('Background/oneFrame/18.png')" x="378" y="315" />
+                    <Image source="@Embed('Background/oneFrame/19.png')" x="504" y="315" />
+                    <Image source="@Embed('Background/oneFrame/20.png')" x="0" y="420" />
+                    <Image source="@Embed('Background/oneFrame/21.png')" x="126" y="420" />
+                    <Image source="@Embed('Background/oneFrame/22.png')" x="252" y="420" />
+                    <Image source="@Embed('Background/oneFrame/23.png')" x="378" y="420" />
+                    <Image source="@Embed('Background/oneFrame/24.png')" x="504" y="420" />
+                </Canvas>
+                <Canvas horizontalScrollPolicy="off" verticalScrollPolicy="off" x="0" y="0" width="618" height="526" clipContent="false" xmlns="library://ns.adobe.com/flex/halo">
+                    <ShapeCanvas x="10" y="10" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 270 0 L 270 370 L 0 370 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/35f608775774b123a53f0717b031563362786750.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="360" y="20" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xffe4e1" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/af15be0869240ca5581a3368b6ecda9b3dfac709.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="110" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xe0ffff" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/99aabdfc068a525b098a16b80fb0daea4e58e543.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="360" y="200" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf5f5dc" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/d8d17d3002bf791a1a52cd9bd7d3733ce0c36032.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="370" y="290" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 0 0 L 150 0 L 150 90 L 0 90 Z">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xf0fff0" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                        <Image source="@Embed('Text/oneFrame/2c0fbf12cab518337d098a004808474b3ee4cddc.png')" x="0" y="0" xmlns="library://ns.adobe.com/flex/halo" />
+                    </ShapeCanvas>
+                    <ShapeCanvas x="579.9999" y="448" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" doubleClickEnabled="false" clickAction="GotoFirst" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group alpha="1">
+                                <Path data="M 9.0001 35 L 12.0001 35 L 15.0001 35 L 15 29 L 22 29 L 12 2 L 2 29 L 9 29 L 9.0001 35 ">
+                                    <fill>
+                                        <SolidColor color="0x000000" />
+                                    </fill>
+                                </Path>
+                            </Group>
+                            <Group>
+                                <Path data="M 7.0001 33 L 10.0001 33 L 13.0001 33 L 13 27 L 20 27 L 10 0 L 0 27 L 7 27 L 7.0001 33 ">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0x32cd32" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" alpha="0" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
+                    </ShapeCanvas>
+                    <ShapeCanvas x="23" y="449" alpha="1" timeSpanned="true" visible="false" startDelay="0" duration="10000" doubleClickEnabled="false" clickAction="GotoPrevious" xmlns="com.madcap.mimic.*">
+                        <Graphic xmlns="library://ns.adobe.com/flex/spark">
+                            <Group>
+                                <Path data="M 84 13 L 84 10 L 84 7 L 24 7 L 29 0 L 0 10 L 29 20 L 24 13 L 84 13 ">
+                                    <fill>
+                                        <LinearGradient>
+                                            <entries>
+                                                <GradientEntry color="0xff0000" alpha="1" ratio="0.0" />
+                                            </entries>
+                                        </LinearGradient>
+                                    </fill>
+                                    <stroke>
+                                        <SolidColorStroke caps="square" color="0x000000" weight="1" />
+                                    </stroke>
+                                </Path>
+                            </Group>
+                        </Graphic>
                     </ShapeCanvas>
                 </Canvas>
             </FrameCanvas>

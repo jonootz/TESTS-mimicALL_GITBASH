@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov" />
+    <Link
+      Url="Project/ConditionTagSets/Project.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#mcmovie" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#flash" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#embed" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#silverlight" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#html5" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#html5_embed" />
+    <Link
+      Url="Project/ConditionTagSets/Project.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Project.DontTest" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Project.DontTest" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

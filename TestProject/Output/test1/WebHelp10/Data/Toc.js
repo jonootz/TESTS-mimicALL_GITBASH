@@ -1,7 +1,11 @@
 var xmlTocData = "";
 xmlTocData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
-xmlTocData += '<CatapultToc Version=\"1\" DescendantCount=\"2\">';
+xmlTocData += '<CatapultToc Version=\"1\" DescendantCount=\"6\">';
 xmlTocData += '    <TocEntry Title=\"Topic\" Link=\"/Content/Topic.htm\" ComputedResetPageLayout=\"true\" ComputedFirstTopic=\"true\" DescendantCount=\"0\" />';
-xmlTocData += '    <TocEntry Title=\"NewTopic\" Link=\"/Content/NewTopic.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlTocData += '    <TocEntry Title=\"Default\" Link=\"/Content/Default.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlTocData += '    <TocEntry Title=\"MadCap Movie\" Link=\"/Content/MadCap Movie.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlTocData += '    <TocEntry Title=\"Flash\" Link=\"/Content/Flash.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlTocData += '    <TocEntry Title=\"Silverlight\" Link=\"/Content/Silverlight.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlTocData += '    <TocEntry Title=\"HTML5\" Link=\"/Content/HTML5.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlTocData += '</CatapultToc>';
 CMCXmlParser._FilePathToXmlStringMap.Add('Toc', xmlTocData);

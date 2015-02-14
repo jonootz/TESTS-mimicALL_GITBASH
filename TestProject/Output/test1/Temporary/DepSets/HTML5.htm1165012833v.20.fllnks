@@ -3,8 +3,16 @@
   FileSearchable="true"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#html5" />
+    <Link
+      Url="../oneFrame.mimovf/oneFrame.mimov#html5_embed" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />

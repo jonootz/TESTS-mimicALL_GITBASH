@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadBuild V11 Generated WebHelp10.fltar" Date="2015-02-13T15:35:10.2223617-08:00">
+<MadCapLog Protocol="2" Description="MadBuild V11 Generated WebHelp10.fltar" Date="2015-02-13T16:10:50.4463617-08:00">
     <Messages>Compiling target WebHelp10...
 Removing previously generated content...
-Build failed: The process cannot access the file 'C:\Users\test1\Desktop\Simple\TestProject\Output\test1\WebHelp10\Content\Movies\oneFrame.mcmvf\html5\videos\oneFrame\interactive\oneFrame.webm' because it is being used by another process.
+Build failed: The process cannot access the file 'C:\Users\test1\Desktop\Simple\TestProject\Output\test1\WebHelp10\Content\Topic.htm' because it is being used by another process.
 Saving log to "C:\Users\test1\Desktop\Simple\TestProject\Output\test1\WebHelp10\WebHelp10.mclog"
 </Messages>
     <Warnings />
     <Errors>
-        <LogEntry File="../../../Project/Targets/WebHelp10.fltar" Message="Build failed: The process cannot access the file 'C:\Users\test1\Desktop\Simple\TestProject\Output\test1\WebHelp10\Content\Movies\oneFrame.mcmvf\html5\videos\oneFrame\interactive\oneFrame.webm' because it is being used by another process.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="WebHelp10" ErrorID="10086" />
+        <LogEntry File="../../../Project/Targets/WebHelp10.fltar" Message="Build failed: The process cannot access the file 'C:\Users\test1\Desktop\Simple\TestProject\Output\test1\WebHelp10\Content\Topic.htm' because it is being used by another process.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="WebHelp10" ErrorID="10086" />
     </Errors>
 </MadCapLog>
