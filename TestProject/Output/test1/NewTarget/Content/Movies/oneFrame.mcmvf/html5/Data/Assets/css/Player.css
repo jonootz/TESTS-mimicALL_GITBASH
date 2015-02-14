@@ -1,0 +1,396 @@
+﻿audio, video {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.kineticjs-content {
+}
+
+canvas {
+    position: absolute;
+}
+
+#MimicMovieHost {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    -moz-box-shadow: 3px 3px 6px #000;
+    -webkit-box-shadow: 3px 3px 6px #000;
+    box-shadow: 3px 3px 6px #000;
+}
+
+#MimicMovieHost a:focus
+{
+    outline: transparent;
+}
+
+.toolbar_html5 {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background: url('../images/player/background.png') repeat-x 0 6px;
+    background-repeat: repeat-x;
+    width: 100%;
+    z-index: 2;
+    font-family: Arial;
+    
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+}
+
+.toolbar_html5 a {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.navigateWrapper {
+    padding: 5px 10px;
+    float: left;
+}
+
+.navigateWrapper a {
+    display: block;
+    float: left;
+    margin: 10px 5px 0px 5px;
+}
+
+a.playButton
+{
+   background: url('../images/buttons/play-pause-sprite.png') 0 -90px;
+}
+
+a.playButton.playing
+{
+    margin-top: 6px;
+    width: 23px;
+    height: 24px;
+}
+
+a.playButton.playing:hover {
+    background-position: 0 -115px;
+}
+
+a.playButton.playing:active {
+    background-position: 0 -140px;
+}
+
+a.playButton.paused {
+    width: 23px;
+    height: 27px;
+    margin-top: 4px;
+    background-position: 0 0;
+}
+
+a.playButton.paused:hover {
+    background-position: 0 -31px;
+}
+
+a.playButton.paused:active {
+    background-position: 0 -61px;
+}
+
+a.prevFrameButton, a.nextFrameButton
+{
+    display: none;
+}
+
+.hasFrames a.prevFrameButton, .hasFrames a.nextFrameButton
+{
+    display: block;
+}
+
+a.prevFrameButton {
+    width: 15px;
+    height: 17px;
+    margin-right: 4px;
+    background: url('../images/buttons/skip-back-sprite.png') 0 0;
+}
+
+a.prevFrameButton:hover {
+    background-position: 0 -18px;
+}
+
+a.prevFrameButton:active {
+    background-position: 0 -35px;
+}
+
+a.nextFrameButton {
+    width: 15px;
+    height: 17px;
+    background: url('../images/buttons/skip-forward-sprite.png') 0 0;
+}
+
+a.nextFrameButton:hover {
+    background-position: 0 -18px;
+}
+
+a.nextFrameButton:active {
+    background-position: 0 -35px;
+}
+
+.timelineWrapper {
+    position: relative;
+    padding: 0 7px 0 8px;
+}
+
+.timelineLeft
+{
+    background: url('../images/timeline/played-background.png') repeat-x;
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 6px;
+}
+
+.ui-slider
+{
+    position: relative;
+    text-align: left;
+}
+
+.ui-slider-handle
+{
+    position: absolute;
+    z-index: 2;
+    cursor: default;
+}
+
+.timelineWrapper, .timeline
+{
+    background: url('../images/timeline/background.png') repeat-x;
+}
+
+.timeline
+{
+    height: 6px;
+}
+
+.timeline .ui-slider-range
+{
+    background: url('../images/timeline/played-background.png') repeat-x;
+    height: 6px;
+}
+
+.timeline .ui-slider-handle
+{
+    margin: -9px 0 0 -9px;
+    width: 17px;
+    height: 15px;
+    background: url('../images/timeline/scrubber.png') no-repeat 0 -1px;
+}
+
+.timeWrapper
+{
+    padding-top: 13px;
+    float: left;
+}
+
+.timeSpan {
+    display: inline-block;
+    float: left;
+    height: 13px;
+    font: normal 13px Arial;
+    margin-top: 14px;
+}
+
+.timeProgressSpan, span.timeDividerSpan {
+    color: #ffffff;
+}
+
+.timeProgressSpan {
+    margin-left: 10px;
+}
+
+.timeTotalSpan {
+    color: #b9b9b9;
+}
+
+.volumeWrapper
+{
+    float: right;
+    margin-right: 15px;
+    display: none;
+}
+
+.hasSound .volumeWrapper
+{
+    display: block;
+}
+
+.volumeButton 
+{
+    width: 23px;
+    height: 16px;
+    margin-top: 16px;
+    background: url('../images/buttons/volume.png') 0 0;
+}
+
+.volumeButton:hover 
+{
+    background-position: 0 -17px;
+}
+
+.volumeButton:active 
+{
+    background-position: 0 -33px;
+}
+
+.volumeButton.muted
+{
+    background-position: 0 -50px;
+}
+
+.volumeButton.muted:hover
+{
+    background-position: 0 -67px;
+}
+
+.volumeButton.muted:active
+{
+    background-position: 0 -84px;
+}
+
+.volumePopup 
+{
+    width: 23px;
+    height: 72px;
+    position: absolute;
+    top: -55px;
+    background: url('../images/volume/popup.png');
+    display: none;
+}
+
+.volumeWrapper:hover .volumePopup
+{
+    display: block;
+}
+
+.volume
+{
+    height: 35px;
+    width: 3px;
+    margin-top: 10px;
+    padding: 10px 12px 0px 8px;
+    cursor: pointer;
+}
+
+.volumeBottom
+{
+    width: 7px;
+    height: 6px;
+    background: url('../images/volume/bottom.png');
+    margin-left: 8px;
+}
+
+.volume .ui-slider-range
+{
+    background: url('../images/volume/background.png') repeat-y;
+    width: 7px;
+    position:absolute;
+    bottom: 0;
+}
+
+.volume .ui-slider-handle
+{
+    margin: 0px 0px -5px -2px;
+    
+    width: 11px;
+    height: 9px;
+    background: url('../images/volume/scrubber.png') no-repeat 0 -1px;
+}
+
+.navigateMoviesWrapper
+{
+    float: right;
+    margin-right: 11px;
+    padding-top: 12px;
+}
+
+a.prevMovieButton, a.nextMovieButton
+{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 0px 4px;
+    
+    display: none;
+}
+
+.hasPreviousMovie a.prevMovieButton
+{
+    display: block;
+}
+
+.hasNextMovie a.nextMovieButton
+{
+    display: block;
+}
+
+a.prevMovieButton
+{
+    background: url('../images/buttons/skip-movie-back-sprite.png');
+}
+
+a.prevMovieButton:hover {
+    background-position: 0 -25px;
+}
+
+a.prevMovieButton:active {
+    background-position: 0 -50px;
+}
+
+a.nextMovieButton {
+    background: url('../images/buttons/skip-movie-forward-sprite.png') 0 0;
+}
+
+a.nextMovieButton:hover {
+    background-position: 0 -25px;
+}
+
+a.nextMovieButton:active {
+    background-position: 0 -50px;
+}
+
+.playOverlayWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.playOverlay
+{
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    left: 50%;
+    margin-left: -45px;
+    background: transparent url('../images/buttons/play-overlay.png');
+    border: 0;
+    padding: 0;
+}
+
+.incompatibleWrapper
+{
+    position: absolute;
+    background: #000000;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.incompatibleOverlay
+{
+    position: absolute;
+    border: 0;
+    padding: 0;
+    width: 65%;
+    font-family: Arial;
+    color: #ffffff;
+}
